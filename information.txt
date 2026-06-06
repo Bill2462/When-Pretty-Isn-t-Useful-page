@@ -1,0 +1,14 @@
+ARXIV: https://arxiv.org/abs/2602.19946
+Citation:
+
+@inproceedings{adamkiewicz2026pretty,
+  title={When Pretty Isn't Useful: Investigating Why Modern Text-to-Image Models Fail as Reliable Training Data Generators},
+  author={Adamkiewicz, Krzysztof and Moser, Brian B and Frolov, Stanislav and Nauen, Tobias Christian and Raue, Federico and Dengel, Andreas},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={36660--36669},
+  year={2026}
+}
+
+
+Codebase https://github.com/Bill2462/When-Pretty-Isn-t-Useful-codebase
+

@@ -3,68 +3,57 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
+
   <!-- Primary Meta Tags -->
-  <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
-  <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
-  <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="title" content="When Pretty Isn't Useful: Why Modern Text-to-Image Models Fail as Reliable Training Data Generators - Adamkiewicz, Moser, Frolov et al.">
+  <meta name="description" content="A large-scale benchmark of 13 text-to-image diffusion models (2022-2025) showing that despite better visual fidelity, newer models produce worse synthetic training data for vision classifiers.">
+  <meta name="keywords" content="text-to-image, diffusion models, synthetic data, training data generation, image classification, data realism, distribution collapse, ImageNet, generative models, machine learning, computer vision">
+  <meta name="author" content="Krzysztof Adamkiewicz, Brian B. Moser, Stanislav Frolov, Tobias Christian Nauen, Federico Raue, Andreas Dengel">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
-  
+
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
-  <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
-  <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
-  <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:site_name" content="DFKI / RPTU University Kaiserslautern-Landau">
+  <meta property="og:title" content="When Pretty Isn't Useful: Why Modern Text-to-Image Models Fail as Reliable Training Data Generators">
+  <meta property="og:description" content="A large-scale benchmark of 13 text-to-image diffusion models (2022-2025) showing that despite better visual fidelity, newer models produce worse synthetic training data for vision classifiers.">
+  <!-- TODO: Replace with your final GitHub Pages / project URL once hosted -->
+  <meta property="og:url" content="https://arxiv.org/abs/2602.19946">
+  <meta property="og:image" content="static/images/fig1.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="PAPER_TITLE - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="og:image:alt" content="Synthetic-to-real transfer accuracy declines for newer text-to-image models">
+  <meta property="article:published_time" content="2026-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Krzysztof Adamkiewicz">
   <meta property="article:section" content="Research">
-  <meta property="article:tag" content="KEYWORD1">
-  <meta property="article:tag" content="KEYWORD2">
+  <meta property="article:tag" content="text-to-image">
+  <meta property="article:tag" content="synthetic data">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
-  <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="PAPER_TITLE">
-  <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
-  <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
-  <meta name="twitter:image:alt" content="PAPER_TITLE - Research Preview">
+  <meta name="twitter:title" content="When Pretty Isn't Useful: Why Modern Text-to-Image Models Fail as Reliable Training Data Generators">
+  <meta name="twitter:description" content="A large-scale benchmark of 13 text-to-image diffusion models (2022-2025) showing that despite better visual fidelity, newer models produce worse synthetic training data for vision classifiers.">
+  <meta name="twitter:image" content="static/images/fig1.png">
+  <meta name="twitter:image:alt" content="Synthetic-to-real transfer accuracy declines for newer text-to-image models">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="PAPER_TITLE">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
-  
+  <meta name="citation_title" content="When Pretty Isn't Useful: Investigating Why Modern Text-to-Image Models Fail as Reliable Training Data Generators">
+  <meta name="citation_author" content="Adamkiewicz, Krzysztof">
+  <meta name="citation_author" content="Moser, Brian B.">
+  <meta name="citation_author" content="Frolov, Stanislav">
+  <meta name="citation_author" content="Nauen, Tobias Christian">
+  <meta name="citation_author" content="Raue, Federico">
+  <meta name="citation_author" content="Dengel, Andreas">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)">
+  <meta name="citation_pdf_url" content="https://openaccess.thecvf.com/content/CVPR2026/papers/Adamkiewicz_When_Pretty_Isnt_Useful_Investigating_Why_Modern_Text-to-Image_Models_Fail_CVPR_2026_paper.pdf">
+
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
   <meta name="msapplication-TileColor" content="#2563eb">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  
+
   <!-- Preconnect for performance -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -73,23 +62,22 @@
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
 
 
-  <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
-  
+  <title>When Pretty Isn't Useful: Why Modern Text-to-Image Models Fail as Reliable Training Data Generators | CVPR 2026</title>
+
   <!-- Favicon and App Icons -->
   <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
   <link rel="apple-touch-icon" href="static/images/favicon.ico">
-  
+
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/index.css">
-  
+
   <!-- Non-critical CSS - Load asynchronously -->
   <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  
+
   <!-- Fallback for browsers that don't support preload -->
   <noscript>
     <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
@@ -97,10 +85,10 @@
     <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   </noscript>
-  
+
   <!-- Fonts - Optimized loading -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Defer non-critical JavaScript -->
   <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
@@ -108,73 +96,44 @@
   <script defer src="static/js/bulma-carousel.min.js"></script>
   <script defer src="static/js/bulma-slider.min.js"></script>
   <script defer src="static/js/index.js"></script>
-  
+
   <!-- Structured Data for Academic Papers -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "When Pretty Isn't Useful: Investigating Why Modern Text-to-Image Models Fail as Reliable Training Data Generators",
+    "description": "A large-scale benchmark of 13 text-to-image diffusion models (2022-2025) showing that despite better visual fidelity, newer models produce worse synthetic training data for vision classifiers.",
     "author": [
-      {
-        "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      },
-      {
-        "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "INSTITUTION_NAME"
-        }
-      }
+      { "@type": "Person", "name": "Krzysztof Adamkiewicz", "affiliation": { "@type": "Organization", "name": "RPTU University Kaiserslautern-Landau / DFKI" } },
+      { "@type": "Person", "name": "Brian B. Moser", "affiliation": { "@type": "Organization", "name": "DFKI" } },
+      { "@type": "Person", "name": "Stanislav Frolov", "affiliation": { "@type": "Organization", "name": "DFKI" } },
+      { "@type": "Person", "name": "Tobias Christian Nauen", "affiliation": { "@type": "Organization", "name": "RPTU University Kaiserslautern-Landau / DFKI" } },
+      { "@type": "Person", "name": "Federico Raue", "affiliation": { "@type": "Organization", "name": "DFKI" } },
+      { "@type": "Person", "name": "Andreas Dengel", "affiliation": { "@type": "Organization", "name": "RPTU University Kaiserslautern-Landau / DFKI" } }
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2026",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "url": "https://arxiv.org/abs/2602.19946",
+    "image": "static/images/fig1.png",
+    "keywords": ["text-to-image", "diffusion models", "synthetic data", "image classification", "data realism", "distribution collapse", "computer vision"],
+    "abstract": "Recent text-to-image (T2I) diffusion models produce visually stunning images and demonstrate excellent prompt following. But do they perform well as synthetic vision data generators? We generate large-scale synthetic datasets using state-of-the-art T2I models released between 2022 and 2025, train classifiers solely on synthetic data, and evaluate on real test data. Despite advances in visual fidelity and prompt adherence, classification accuracy on real test data consistently declines with newer T2I models. These models collapse to a narrow, aesthetic-centric distribution that undermines diversity and real data distribution coverage.",
     "isAccessibleForFree": true,
-    "license": "https://creativecommons.org/licenses/by/4.0/",
-    "mainEntity": {
-      "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
-    },
-    "about": [
-      {
-        "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
-      },
-      {
-        "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
-      }
-    ]
+    "license": "https://creativecommons.org/licenses/by/4.0/"
   }
   </script>
-  
+
   <!-- Website/Organization Structured Data -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
-    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
-    "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
-    ]
+    "name": "German Research Center for Artificial Intelligence (DFKI)",
+    "url": "https://www.dfki.de",
+    "logo": "static/images/favicon.ico"
   }
   </script>
 </head>
@@ -186,125 +145,63 @@
     <i class="fas fa-chevron-up"></i>
   </button>
 
-  <!-- More Works Dropdown -->
-  <div class="more-works-container">
-    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
-      <i class="fas fa-flask"></i>
-      More Works
-      <i class="fas fa-chevron-down dropdown-arrow"></i>
-    </button>
-    <div class="more-works-dropdown" id="moreWorksDropdown">
-      <div class="dropdown-header">
-        <h4>More Works from Our Lab</h4>
-        <button class="close-btn" onclick="toggleMoreWorks()">
-          <i class="fas fa-times"></i>
-        </button>
-      </div>
-      <div class="works-list">
-        <!-- TODO: Replace with your lab's related works -->
-        <a href="https://arxiv.org/abs/PAPER_ID_1" class="work-item" target="_blank">
-          <div class="work-info">
-            <!-- TODO: Replace with actual paper title -->
-            <h5>Paper Title 1</h5>
-            <!-- TODO: Replace with brief description -->
-            <p>Brief description of the work and its main contribution.</p>
-            <!-- TODO: Replace with venue and year -->
-            <span class="work-venue">Conference/Journal 2024</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <!-- TODO: Add more related works or remove extra items -->
-        <a href="https://arxiv.org/abs/PAPER_ID_2" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 2</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-        <a href="https://arxiv.org/abs/PAPER_ID_3" class="work-item" target="_blank">
-          <div class="work-info">
-            <h5>Paper Title 3</h5>
-            <p>Brief description of the work and its main contribution.</p>
-            <span class="work-venue">Conference/Journal 2023</span>
-          </div>
-          <i class="fas fa-external-link-alt"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
   <main id="main-content">
   <section class="hero">
     <div class="hero-body">
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">When Pretty Isn't Useful: Investigating Why Modern Text-to-Image Models Fail as Reliable Training Data Generators</h1>
             <div class="is-size-5 publication-authors">
-              <!-- TODO: Replace with your paper authors and their personal links -->
-              <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
-                <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
-                  <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
-                  </div>
+              <span class="author-block">Krzysztof Adamkiewicz<sup>1,2,*</sup>,</span>
+              <span class="author-block">Brian B. Moser<sup>2,*</sup>,</span>
+              <span class="author-block">Stanislav Frolov<sup>2,*</sup>,</span>
+              <span class="author-block">Tobias Christian Nauen<sup>1,2</sup>,</span>
+              <span class="author-block">Federico Raue<sup>2</sup>,</span>
+              <span class="author-block">Andreas Dengel<sup>1,2</sup></span>
+            </div>
 
-                  <div class="is-size-5 publication-authors">
-                    <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
-                    <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
-                  </div>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>RPTU University Kaiserslautern-Landau, Kaiserslautern, Germany</span><br>
+              <span class="author-block"><sup>2</sup>German Research Center for Artificial Intelligence (DFKI), Kaiserslautern, Germany</span><br>
+              <span class="author-block"><strong>CVPR 2026 (Spotlight✨)</strong></span>
+              <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+            </div>
 
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- TODO: Update with your arXiv paper ID -->
-                      <span class="link-block">
-                        <a href="https://arxiv.org/pdf/<ARXIV PAPER ID>.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- TODO: Add your supplementary material PDF or remove this section -->
-                    <span class="link-block">
-                      <a href="static/pdfs/supplementary_material.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Supplementary</span>
-                    </a>
-                  </span>
-
-                  <!-- TODO: Replace with your GitHub repository URL -->
-                  <span class="link-block">
-                    <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-
-                <!-- TODO: Update with your arXiv paper ID -->
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- Paper PDF (arXiv) -->
                 <span class="link-block">
-                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  <a href="https://openaccess.thecvf.com/content/CVPR2026/papers/Adamkiewicz_When_Pretty_Isnt_Useful_Investigating_Why_Modern_Text-to-Image_Models_Fail_CVPR_2026_paper.pdf" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="ai ai-arxiv"></i>
+                    <i class="fas fa-file-pdf"></i>
                   </span>
-                  <span>arXiv</span>
+                  <span>Paper</span>
                 </a>
               </span>
+
+              <!-- Code -->
+              <span class="link-block">
+                <a href="https://github.com/Bill2462/When-Pretty-Isn-t-Useful-codebase" target="_blank"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+              </a>
+            </span>
+
+            <!-- arXiv -->
+            <span class="link-block">
+              <a href="https://arxiv.org/abs/2602.19946" target="_blank"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="ai ai-arxiv"></i>
+              </span>
+              <span>arXiv</span>
+            </a>
+          </span>
             </div>
           </div>
         </div>
@@ -314,23 +211,20 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser figure -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <img src="static/images/fig1.png" alt="Synthetic-to-real transfer accuracy versus model release date, showing a downward trend for newer text-to-image models." loading="lazy"/>
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        We train ResNet-50 classifiers on images generated by various T2I models for a subset of ImageNet-1k classes and
+        evaluate their accuracy on real test data (Synth&nbsp;&rarr;&nbsp;Real). For simple captions, the results reveal a downward trend over time:
+        <strong>newer models get progressively worse as reliable training data generators</strong>, despite their advances in visual quality.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser figure -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -339,9 +233,18 @@
       <div class="column is-four-fifths">
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
-          <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Recent text-to-image (T2I) diffusion models produce visually stunning images and demonstrate excellent prompt
+            following. But do they perform well as synthetic vision data generators? In this work, we revisit the promise of
+            synthetic data as a scalable substitute for real training sets and uncover a surprising performance regression.
+            We generate large-scale synthetic datasets using state-of-the-art T2I models released between 2022 and 2025,
+            train standard classifiers solely on this synthetic data, and evaluate them on real test data.
+            Despite observable advances in visual fidelity and prompt adherence, classification accuracy on real test data
+            consistently declines with newer T2I models as training data generators.
+            Our analysis reveals a hidden trend: these models collapse to a narrow, aesthetic-centric distribution that
+            undermines diversity and real data distribution coverage. Overall, our findings challenge a growing assumption in
+            vision research, namely that progress in generative realism implies progress in data realism. We thus highlight an
+            urgent need to rethink the capabilities of modern T2I models as reliable training data generators.
           </p>
         </div>
       </div>
@@ -351,106 +254,116 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
+<!-- Key Findings -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full">
+        <h2 class="title is-3 has-text-centered">Key Findings</h2>
+
+        <!-- Finding 1: prompt-following / alignment tradeoff -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Progress in prompt following does not translate into better training data</h3>
+          <p>
+            Newer T2I models score higher on text-alignment metrics such as <strong>GenEval</strong> and <strong>CLIPScore</strong>
+            &mdash; yet, for class-name prompts, this alignment is <em>inversely</em> related to how useful their images are as training data.
+            Across four classifier architectures (ResNet-50, ViT-Ti, ConvNeXt-Ti, Swin-Ti), higher benchmark scores correspond to
+            <strong>lower</strong> Synth&nbsp;&rarr;&nbsp;Real transfer accuracy. This reveals a hidden trade-off between prompt
+            following and a model's performance on short prompts.
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/fig3.png" alt="Real test accuracy versus GenEval score and CLIPScore across four architectures, showing a consistent downward trend." loading="lazy"/>
+        </figure>
+        <p class="has-text-centered is-size-6 mt-2 mb-6">
+          <strong>Accuracy on real ImageNet-1k vs. GenEval (top) and CLIPScore (bottom).</strong>
+          Higher text-image alignment correlates with worse transfer performance for class-name prompts.
+        </p>
+
+        <!-- Finding 2: texture & frequency -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Structure is preserved, but texture and high-frequency detail are degraded</h3>
+          <p>
+            To isolate which aspects of synthetic images break, we transform the training and test data to suppress or amplify specific cues:
+            depth maps (structure only), local 9&times;9 patches via BagNet (texture only), and low-/high-pass filtering (frequency bands).
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/fig2.png" alt="RGB images transformed into depth, texture patches, and low/high-frequency components for real and generated images." loading="lazy"/>
+        </figure>
+        <p class="has-text-centered is-size-6 mt-2 mb-5">
+          <strong>Probing transforms.</strong> We transform our problem into different domains to
+          localize the synthetic-vs-real gap. We use depth estimation to remove anything but geometry, a patch classifier to remove long-range dependencies, and high/low-pass filtering to probe different frequency bands.
+        </p>
+        <div class="content has-text-justified">
+          <p>
+            The result is consistent: <strong>global structure and low frequencies are faithfully reproduced</strong>, while
+            <strong>texture and high-frequency detail are systematically degraded</strong>. Crucially, detailed captions improve structure and low-frequency content, but barely help texture or
+            high-frequency realism, which remain largely decoupled from the text prompt.
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/fig4.png" alt="Performance of structure/texture and high/low-frequency classifiers versus RGB accuracy for class-name and caption prompts." loading="lazy"/>
+        </figure>
+        <p class="has-text-centered is-size-6 mt-2 mb-6">
+          <strong>Structure/texture (left) and high/low-frequency (right) transfer.</strong>
+          Structure points sit above the diagonal (unrealistic textures hurt transfer to real data)
+        </p>
+
+        <!-- Finding 3: distribution collapse -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Modern models collapse to narrow, high-density, low-coverage distributions</h3>
+          <p>
+            Using density and coverage metrics, we find that as <strong>density decreases and coverage increases</strong>, transfer
+            accuracy to real data improves. Many poorly performing models exhibit <strong>high density but low coverage</strong> &mdash;
+            samples are visually consistent yet distributionally narrow.
+            Detailed captions derived from real data substantially increase coverage and reduce density, recovering much of the lost diversity.
+            However it is worth noting that this represents a best case scenario (captions from real data) and a considerable effort needs to be put into generating such captions without ground truth images. 
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/fig5.png" alt="Density versus coverage for each model, colored by synthetic-to-real transfer accuracy, comparing class-name and caption prompts." loading="lazy"/>
+        </figure>
+        <p class="has-text-centered is-size-6 mt-2 mb-6">
+          <strong>Diversity via density &amp; coverage.</strong> Compact, high-density clusters yield high sample quality but sacrifice
+          the diversity needed for generalization.
+        </p>
+
+        <!-- Finding 4: sample vs distribution realism -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Samples look real, but the distribution doesn't</h3>
+          <p>
+            Comparing cross-domain transfer shows a strong asymmetry: real-trained classifiers handle synthetic images well
+            (high Real&nbsp;&rarr;&nbsp;Synth), but synthetic-trained classifiers transfer poorly to real data
+            (low Synth&nbsp;&rarr;&nbsp;Real). In other words, modern T2I models prioritize <strong>sample realism over distributional
+            realism</strong>: individual images are easy to recognize, yet the overall dataset fails to capture the variation and
+            decision boundaries of real data. Detailed captions partially reduce this asymmetry.
+          </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/fig6.png" alt="Real-to-synthetic versus synthetic-to-real transfer accuracy, showing growing asymmetry between visual and learning alignment." loading="lazy"/>
+        </figure>
+        <p class="has-text-centered is-size-6 mt-2 mb-5">
+          <strong>Cross-domain transfer (ResNet-50).</strong> Synthetic data is increasingly easy for real-trained models to classify,
+          yet trains progressively worse models &mdash; this reveals that modern models posses high sample realism but lack distribution realism.
+        </p>
+
+        <!-- Takeaway -->
+        <div class="content has-text-justified">
+          <h3 class="title is-4">Takeaway</h3>
+          <p>
+            Modern T2I models generate data that <em>looks</em> aesthetically better but <em>functions</em> worse as reliable training data.
+            We advocate for three practical shifts: (1) train for diversity and natural image statistics, not only photorealism;
+            (2) report utility alongside perceptual quality (density-coverage, Synth&nbsp;&rarr;&nbsp;Real transfer, frequency-band results);
+            and (3) design prompts and distillation pipelines that preserve intra-class variation and fine detail.
+          </p>
+        </div>
+
       </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
     </div>
   </div>
-</div>
-</div>
 </section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
+<!-- End Key Findings -->
 
 
 <!-- Paper poster -->
@@ -458,14 +371,12 @@
   <div class="hero-body">
     <div class="container">
       <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
+      <figure class="image">
+        <img src="static/images/poster.png" alt="Conference poster summarizing the paper's research question, setup, and key findings." loading="lazy"/>
+      </figure>
     </div>
-  </section>
+  </div>
+</section>
 <!--End paper poster -->
 
 
@@ -480,12 +391,12 @@
           <span class="copy-text">Copy</span>
         </button>
       </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
+      <pre id="bibtex-code"><code>@inproceedings{adamkiewicz2026pretty,
+  title={When Pretty Isn't Useful: Investigating Why Modern Text-to-Image Models Fail as Reliable Training Data Generators},
+  author={Adamkiewicz, Krzysztof and Moser, Brian B and Frolov, Stanislav and Nauen, Tobias Christian and Raue, Federico and Dengel, Andreas},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={36660--36669},
+  year={2026}
 }</code></pre>
     </div>
 </section>
@@ -499,7 +410,7 @@
         <div class="content">
 
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
             You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
             Commons Attribution-ShareAlike 4.0 International License</a>.
           </p>
@@ -510,11 +421,7 @@
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
+  </main>
 
   </body>
   </html>
